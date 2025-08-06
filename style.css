@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    background-color: #6D597A;
+}
+h1{
+    margin-top: 1rem;
+    color: #EAAC8B;
+    font-size: 3rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 11vmin;
+    color: #E56B6F;
+    background-color: #355070;
+}
+#reset-btn{
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    background-color: #EAAC8B;
+    color: black;
+    border: none;
+}
+#msg{
+    font-size: 7vmin;
+    color: #fff;
+}
+#new-btn{
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    background-color: #EAAC8B;
+    color: black;
+    border: none;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+/* Resposive for mobile phones*/
+
+@media (max-width: 470px){
+h1{
+    margin-top: 6rem;
+}
+.container{
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    font-size: 10vmin;
+    margin: 0 7px;
+    color: #fff;
+}
+.msg-container{
+    height: 50vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+}
